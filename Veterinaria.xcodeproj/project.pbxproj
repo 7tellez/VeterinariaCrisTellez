@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88AD708A2404B2820077E4B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70892404B2820077E4B0 /* AppDelegate.swift */; };
+		88AD70902404B2850077E4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AD708F2404B2850077E4B0 /* Assets.xcassets */; };
+		88AD70932404B2850077E4B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AD70922404B2850077E4B0 /* Preview Assets.xcassets */; };
+		88AD70962404B2850077E4B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AD70942404B2850077E4B0 /* LaunchScreen.storyboard */; };
+		88AD709E2404B9680077E4B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD709D2404B9680077E4B0 /* ViewController.swift */; };
+		88AD70A12404BAE80077E4B0 /* Mascota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70A02404BAE80077E4B0 /* Mascota.swift */; };
+		88AD70A32404BB1F0077E4B0 /* Propietario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70A22404BB1F0077E4B0 /* Propietario.swift */; };
+		88AD70A52404BB380077E4B0 /* Vacuna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70A42404BB380077E4B0 /* Vacuna.swift */; };
+		88AD70AB2404D0140077E4B0 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AD70AA2404D0140077E4B0 /* main.storyboard */; };
+		88AD70AE2404D3B60077E4B0 /* RoundUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70AD2404D3B60077E4B0 /* RoundUIView.swift */; };
+		88AD70B02404D4620077E4B0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70AF2404D4620077E4B0 /* RoundButton.swift */; };
+		88AD70B22404E5EF0077E4B0 /* PetRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70B12404E5EF0077E4B0 /* PetRegisterViewController.swift */; };
+		88AD70B42404E6230077E4B0 /* ConsulDeletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70B32404E6230077E4B0 /* ConsulDeletViewController.swift */; };
+		88AD70B62404E63A0077E4B0 /* RegistroVacunaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70B52404E63A0077E4B0 /* RegistroVacunaViewController.swift */; };
+		88AD70B82404E6510077E4B0 /* PropiedadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD70B72404E6510077E4B0 /* PropiedadViewController.swift */; };
+		88C2ABB22405735600A0604D /* BDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2ABB12405735600A0604D /* BDController.swift */; };
+		88C2ABB4240578F100A0604D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2ABB3240578F100A0604D /* Util.swift */; };
+		88C2ABB6240594AD00A0604D /* PropietarioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2ABB5240594AD00A0604D /* PropietarioTableViewCell.swift */; };
+		88C2ABB82405A4AE00A0604D /* DeleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2ABB72405A4AE00A0604D /* DeleteTableViewCell.swift */; };
+		88C2ABBA2405AA0A00A0604D /* VacunaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2ABB92405AA0A00A0604D /* VacunaTableViewCell.swift */; };
+		902CCD75E002D98267BA6AB4 /* Pods_Veterinaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFFDBDEECC94B0CC19792ED /* Pods_Veterinaria.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A756B269E580286AB2779F6 /* Pods-Veterinaria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veterinaria.debug.xcconfig"; path = "Target Support Files/Pods-Veterinaria/Pods-Veterinaria.debug.xcconfig"; sourceTree = "<group>"; };
+		88AD70862404B2820077E4B0 /* Veterinaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veterinaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AD70892404B2820077E4B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88AD708F2404B2850077E4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88AD70922404B2850077E4B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88AD70952404B2850077E4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88AD70972404B2850077E4B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AD709D2404B9680077E4B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88AD70A02404BAE80077E4B0 /* Mascota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mascota.swift; sourceTree = "<group>"; };
+		88AD70A22404BB1F0077E4B0 /* Propietario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Propietario.swift; sourceTree = "<group>"; };
+		88AD70A42404BB380077E4B0 /* Vacuna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacuna.swift; sourceTree = "<group>"; };
+		88AD70AA2404D0140077E4B0 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		88AD70AD2404D3B60077E4B0 /* RoundUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundUIView.swift; sourceTree = "<group>"; };
+		88AD70AF2404D4620077E4B0 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		88AD70B12404E5EF0077E4B0 /* PetRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRegisterViewController.swift; sourceTree = "<group>"; };
+		88AD70B32404E6230077E4B0 /* ConsulDeletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsulDeletViewController.swift; sourceTree = "<group>"; };
+		88AD70B52404E63A0077E4B0 /* RegistroVacunaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroVacunaViewController.swift; sourceTree = "<group>"; };
+		88AD70B72404E6510077E4B0 /* PropiedadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropiedadViewController.swift; sourceTree = "<group>"; };
+		88C2ABB12405735600A0604D /* BDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDController.swift; sourceTree = "<group>"; };
+		88C2ABB3240578F100A0604D /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		88C2ABB5240594AD00A0604D /* PropietarioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropietarioTableViewCell.swift; sourceTree = "<group>"; };
+		88C2ABB72405A4AE00A0604D /* DeleteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTableViewCell.swift; sourceTree = "<group>"; };
+		88C2ABB92405AA0A00A0604D /* VacunaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacunaTableViewCell.swift; sourceTree = "<group>"; };
+		E06E80F4176207C8885AD085 /* Pods-Veterinaria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veterinaria.release.xcconfig"; path = "Target Support Files/Pods-Veterinaria/Pods-Veterinaria.release.xcconfig"; sourceTree = "<group>"; };
+		FDFFDBDEECC94B0CC19792ED /* Pods_Veterinaria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veterinaria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88AD70832404B2820077E4B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902CCD75E002D98267BA6AB4 /* Pods_Veterinaria.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2059F0FACD52FD95D465214C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A756B269E580286AB2779F6 /* Pods-Veterinaria.debug.xcconfig */,
+				E06E80F4176207C8885AD085 /* Pods-Veterinaria.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88AD707D2404B2820077E4B0 = {
+			isa = PBXGroup;
+			children = (
+				88AD70882404B2820077E4B0 /* Veterinaria */,
+				88AD70872404B2820077E4B0 /* Products */,
+				2059F0FACD52FD95D465214C /* Pods */,
+				E5C4E9A1C9A1C2349B85B4D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88AD70872404B2820077E4B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88AD70862404B2820077E4B0 /* Veterinaria.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88AD70882404B2820077E4B0 /* Veterinaria */ = {
+			isa = PBXGroup;
+			children = (
+				88AD70AC2404D38E0077E4B0 /* Util */,
+				88AD70A72404CFC40077E4B0 /* View */,
+				88AD70A62404BC310077E4B0 /* Controller */,
+				88AD709F2404BAD70077E4B0 /* Model */,
+				88AD70892404B2820077E4B0 /* AppDelegate.swift */,
+				88AD708F2404B2850077E4B0 /* Assets.xcassets */,
+				88AD70942404B2850077E4B0 /* LaunchScreen.storyboard */,
+				88AD70972404B2850077E4B0 /* Info.plist */,
+				88AD70912404B2850077E4B0 /* Preview Content */,
+			);
+			path = Veterinaria;
+			sourceTree = "<group>";
+		};
+		88AD70912404B2850077E4B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88AD70922404B2850077E4B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88AD709F2404BAD70077E4B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88AD70A02404BAE80077E4B0 /* Mascota.swift */,
+				88AD70A22404BB1F0077E4B0 /* Propietario.swift */,
+				88AD70A42404BB380077E4B0 /* Vacuna.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88AD70A62404BC310077E4B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88AD70B92404E65A0077E4B0 /* viewCell */,
+				88AD709D2404B9680077E4B0 /* ViewController.swift */,
+				88AD70B12404E5EF0077E4B0 /* PetRegisterViewController.swift */,
+				88AD70B32404E6230077E4B0 /* ConsulDeletViewController.swift */,
+				88AD70B52404E63A0077E4B0 /* RegistroVacunaViewController.swift */,
+				88AD70B72404E6510077E4B0 /* PropiedadViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88AD70A72404CFC40077E4B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88AD70AA2404D0140077E4B0 /* main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88AD70AC2404D38E0077E4B0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				88AD70AD2404D3B60077E4B0 /* RoundUIView.swift */,
+				88AD70AF2404D4620077E4B0 /* RoundButton.swift */,
+				88C2ABB12405735600A0604D /* BDController.swift */,
+				88C2ABB3240578F100A0604D /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		88AD70B92404E65A0077E4B0 /* viewCell */ = {
+			isa = PBXGroup;
+			children = (
+				88C2ABB5240594AD00A0604D /* PropietarioTableViewCell.swift */,
+				88C2ABB72405A4AE00A0604D /* DeleteTableViewCell.swift */,
+				88C2ABB92405AA0A00A0604D /* VacunaTableViewCell.swift */,
+			);
+			path = viewCell;
+			sourceTree = "<group>";
+		};
+		E5C4E9A1C9A1C2349B85B4D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDFFDBDEECC94B0CC19792ED /* Pods_Veterinaria.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88AD70852404B2820077E4B0 /* Veterinaria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AD709A2404B2850077E4B0 /* Build configuration list for PBXNativeTarget "Veterinaria" */;
+			buildPhases = (
+				E962871B73D9790C5CA98E6F /* [CP] Check Pods Manifest.lock */,
+				88AD70822404B2820077E4B0 /* Sources */,
+				88AD70832404B2820077E4B0 /* Frameworks */,
+				88AD70842404B2820077E4B0 /* Resources */,
+				E5959FCC8568609C3022B126 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veterinaria;
+			productName = Veterinaria;
+			productReference = 88AD70862404B2820077E4B0 /* Veterinaria.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88AD707E2404B2820077E4B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = celuweb;
+				TargetAttributes = {
+					88AD70852404B2820077E4B0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 88AD70812404B2820077E4B0 /* Build configuration list for PBXProject "Veterinaria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88AD707D2404B2820077E4B0;
+			productRefGroup = 88AD70872404B2820077E4B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88AD70852404B2820077E4B0 /* Veterinaria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88AD70842404B2820077E4B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AD70962404B2850077E4B0 /* LaunchScreen.storyboard in Resources */,
+				88AD70932404B2850077E4B0 /* Preview Assets.xcassets in Resources */,
+				88AD70902404B2850077E4B0 /* Assets.xcassets in Resources */,
+				88AD70AB2404D0140077E4B0 /* main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E5959FCC8568609C3022B126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Veterinaria/Pods-Veterinaria-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Veterinaria/Pods-Veterinaria-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Veterinaria/Pods-Veterinaria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E962871B73D9790C5CA98E6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veterinaria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88AD70822404B2820077E4B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AD70B02404D4620077E4B0 /* RoundButton.swift in Sources */,
+				88AD70AE2404D3B60077E4B0 /* RoundUIView.swift in Sources */,
+				88C2ABB6240594AD00A0604D /* PropietarioTableViewCell.swift in Sources */,
+				88AD70B22404E5EF0077E4B0 /* PetRegisterViewController.swift in Sources */,
+				88AD70A32404BB1F0077E4B0 /* Propietario.swift in Sources */,
+				88C2ABBA2405AA0A00A0604D /* VacunaTableViewCell.swift in Sources */,
+				88AD70A52404BB380077E4B0 /* Vacuna.swift in Sources */,
+				88AD70A12404BAE80077E4B0 /* Mascota.swift in Sources */,
+				88C2ABB82405A4AE00A0604D /* DeleteTableViewCell.swift in Sources */,
+				88AD708A2404B2820077E4B0 /* AppDelegate.swift in Sources */,
+				88C2ABB4240578F100A0604D /* Util.swift in Sources */,
+				88C2ABB22405735600A0604D /* BDController.swift in Sources */,
+				88AD70B82404E6510077E4B0 /* PropiedadViewController.swift in Sources */,
+				88AD70B42404E6230077E4B0 /* ConsulDeletViewController.swift in Sources */,
+				88AD70B62404E63A0077E4B0 /* RegistroVacunaViewController.swift in Sources */,
+				88AD709E2404B9680077E4B0 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88AD70942404B2850077E4B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AD70952404B2850077E4B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88AD70982404B2850077E4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88AD70992404B2850077E4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88AD709B2404B2850077E4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A756B269E580286AB2779F6 /* Pods-Veterinaria.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Veterinaria/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A77KY85NC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Veterinaria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.celuweb.Veterinaria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88AD709C2404B2850077E4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06E80F4176207C8885AD085 /* Pods-Veterinaria.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Veterinaria/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A77KY85NC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Veterinaria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.celuweb.Veterinaria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88AD70812404B2820077E4B0 /* Build configuration list for PBXProject "Veterinaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AD70982404B2850077E4B0 /* Debug */,
+				88AD70992404B2850077E4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88AD709A2404B2850077E4B0 /* Build configuration list for PBXNativeTarget "Veterinaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AD709B2404B2850077E4B0 /* Debug */,
+				88AD709C2404B2850077E4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88AD707E2404B2820077E4B0 /* Project object */;
+}
